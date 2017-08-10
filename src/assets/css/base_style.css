@@ -1,0 +1,13 @@
+body,html{margin: 0;padding: 0;background-color: #f5f4f4;height: 100%;width: 100%;min-width: 1200px;font-family: "Microsoft YaHei", "微软雅黑";}
+*{box-sizing: border-box}
+dl,dd,dt{margin: 0;padding: 0;}
+#app{height: 100%}
+.content{width: 1200px;margin: auto;min-height: 75%}
+.clearfx {clear: both;}
+
+.icon {
+  width: 1em; height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}

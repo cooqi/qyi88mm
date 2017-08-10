@@ -1,0 +1,144 @@
+*{margin: 0;padding: 0;font-family:  "Microsoft Yahei"}
+li,ul,ol{list-style: none;}
+a{ text-decoration: none;}
+
+.headNav{position: fixed; z-index: 70;top:100px;left: 20px}
+.head_con{width:60px;margin: auto;overflow: hidden;}
+.head_con #menu { margin: 0; padding: 0;}
+.head_con #menu li {text-align:center;font-size: 14px;line-height: 58px; padding-left: 10px}
+.head_con #menu a {color: #fff;display: block;}
+.head_con #menu .active a { color: orange;}
+.head_con #menu .active a span{ position:relative;display: inline-block;}
+.head_con #menu .active a span:before{position: absolute;content: '';width: 5px;height: 5px;background: orange;border-radius: 5px;left: -10px;top:0;bottom: 0;margin: auto}
+
+
+
+.section { position: relative; overflow: hidden;}
+.section h3,.section p,.section h4,.section h5{position: relative;z-index: 999}
+.section .bg { position: absolute; left: 0; top: 0; width: 100%; height: 100%;}
+.section .bg img { display: block; width: 100%; height: 100%;}
+
+.section li h3{font-size: 46px;font-weight: 100;margin-bottom: 50px;color: #328ef1}
+.section li p{font-size: 20px;line-height: 40px;color: #333}
+
+.section .icon_next{position: absolute;bottom: 200px;z-index: 9999;left: 0;right: 0;margin: auto;bottom: 10px}
+.section .icon_next a{display: block;width: 36px;height: 36px;margin: auto;}
+.section .icon_next i {display: block;width: 36px;height: 36px;margin: auto;background: url(../img/icon_next.png) no-repeat;background-size: contain}
+.section .banner02{width:900px;height:100%;position:relative;margin:25% auto}
+.section .banner02 img{width: 45%}
+
+.section2 .img{width: 40%;margin: auto;position: relative;top:-100px;}
+.section2 .img .img-main{width: 60%;margin: auto;}
+.section2 .img .rwm{width: 200px;height: 200px;}
+.section2 .img .img-main img{width: 100%;margin: auto;display: block;}
+
+
+.section3 .box>h3,.section4 h3,.section5 h3,.section6 h3{font-size: 30px;font-weight: 100;color: #328ef1;line-height: 50px}
+.section3 .box>h3 span,.section4 h4,.section5 h3 span,.section6 h3 span{font-size: 24px;color: #333;margin-bottom: 50px;font-weight: 100}
+.section3 .box>h3 span,.section5 h3 span,.section6 h3 span{font-size: 30px;color: #333;}
+.section4 .list_news,.section5 .cont {width: 900px;margin: auto;text-align: left;}
+.section4 .list_news h5,.section5 .cont h5{font-size: 18px;font-weight: bold;color: #328ef1;line-height: 40px}
+.section4 .list_news p,.section5 .cont p{font-size: 14px;color: #333;margin-bottom: 30px}
+
+.section5 .fp-tableCell {display: block;}
+.section5 .fp-tableCell h3{text-align: center;}
+
+.section6 .map{width: 900px;position: relative;z-index: 999;height: 300px;margin-top: 40px}
+.section6 .footer{width: 100%;height: 50px;line-height: 50px;position: absolute;bottom: 0;left: 0;color: #fff;font-size: 12px;z-index:99999}
+
+.box{ width:900px; margin:100px auto 0; position:relative; overflow:hidden; height:100%;}
+.picbox{ width:900px;  overflow:hidden; position:relative;height: 400px; margin: auto}
+.piclist{position:absolute; left:0px; top:0px;}
+.piclist li{ background:#eee;margin-right:20px; padding:5px; float:left;width: 270px;height:180px;border-bottom: 2px solid #2b92f1;margin-bottom: 10px}
+.piclist li p{height: 30px;line-height: 30px;font-size: 14px}
+.piclist li a{color: #333;display: block;}
+.piclist li img{width: 100%;height: 140px}
+
+.section li.index_banner h3 {
+  margin-bottom:15px
+}
+.index_box{position:absolute;left:0;right:0;margin:auto;top:100px}
+.index_box h4,.index_box p{color:#666}
+
+.click_og{width: 60px;margin: 10px auto;overflow: hidden;}
+.og_prev,.og_next{ width:30px; height:50px; background:url(../img/icon.png) no-repeat; background:url(../img/icon_ie6.png) no-repeat\9; cursor:pointer;filter:alpha(opacity=70); opacity:0.7;}
+.og_prev{ background-position:0 -60px; float: left;}
+.og_next{ background-position:0 0; float: right;}
+
+#solid{width:100%;height:100%;clear:both;position:relative;}
+#solid .solid0,#solid .solid1,#solid .solid2{position:absolute;left:0px;top:0px;width:100%;height:100%;display:none;}
+#solid ul{margin:0px;padding:0px;list-style:none;}
+#solid ul li{position:absolute;left:50%;top:0px;width:100%;height:100%;margin-left:-50%;display:none;cursor:pointer;display:table}
+#solid #btt{width:905px;height:55px;top:86%;left:0;right: 0;margin: auto;position:relative;z-index: 9999}
+#solid #btt span{display:inline-block;width:50px;height:6px;margin:0 5px;	text-align:center;background:#3d3d3d;z-index:1000;cursor:pointer;filter:alpha(opacity=70); /*IE滤镜，透明度50%*/-moz-opacity:0.7; /*Firefox私有，透明度50%*/opacity:0.7;/*其他，透明度50%*/}
+
+
+/***************/
+
+.btn{display: inline-block; padding: 5px 10px; font-size: 14px; color: #fff; border: 2px solid #4d92d9; background-color: #4d92d9; text-decoration: none; transition: 0.4s;width:200px;}
+.btn:hover{background-color: transparent; color: #4d92d9; transition: 0.4s;}
+.text-desc{position: absolute; left: 0; top: 0; background-color: #fff; height: 100%; opacity: 0; width: 100%; padding: 20px;z-index: 999}
+.text-desc h4{font-size: 20px; margin: 5px 0 10px;}
+.text-desc p{font-weight: 300; line-height: 20px; font-size: 14px; margin-bottom: 15px;}
+.port-8{width: 100%;height: 100%; position: relative; overflow: hidden; text-align: center; overflow: hidden;}
+.port-8 .text-desc{opacity: 0; transition: 0.5s; color: #000; padding: 45px 20px 20px;}
+
+
+.port-8.effect-2 img{transition: 0.5s;}
+.port-8.effect-2:hover img{transform: scale(1.1);}
+.port-8.effect-2 .text-desc{left: 0; position: absolute; top: 0; width: 100%; height: 100%; transform: scale(0);  backface-visibility: hidden;}
+.port-8.effect-2:hover .text-desc{opacity: 1; transform: scale(1); border-radius: 50% 0 50% 0;}
+
+.port-8.effect-2 img{transition: 0.5s;}
+.port-8.effect-2:hover img{transform: scale(1.1);}
+.port-8.effect-2 .text-desc{left: 0; position: absolute; top: 0; width: 100%; height: 100%; transform: scale(0);  backface-visibility: hidden;}
+.port-8.effect-2:hover .text-desc{opacity: 1; transform: scale(1); border-radius: 50% 0 50% 0;}
+
+
+
+
+
+
+/*********************/
+.right_nav{position: fixed;right: 0;top:0;bottom: 0;margin:auto;z-index: 9999;height: 250px}
+.right_nav>ul>li{width: 40px;height: 40px;margin-bottom: 8px;background:rgba(0,0,0,.3);position: relative;
+  -webkit-transition:all 1s;
+  transition:all 1s;
+}
+.right_nav>ul>li a{color: #fff}
+.right_nav>ul>li>ul>li>a{color: #333}
+.right_nav>ul>li>ul>li:hover{background-color: orange;}
+.right_nav>ul>li>ul>li:hover a{color: #fff}
+.right_nav>ul>li:hover{background: orange;cursor: pointer;}
+.right_nav li i{display: block;width:40px;height: 40px;}
+.right_nav li.R_qq i{background: url(../img/QQ.png) no-repeat center;background-size: 22px 22px}
+.right_nav li.R_tel i{background: url(../img/tel.png) no-repeat center;background-size: 22px 22px}
+.right_nav li.R_wechat i{background: url(../img/wechat.png) no-repeat center;background-size: 22px 22px}
+.right_nav li.R_weibo i{background: url(../img/weibo.png) no-repeat center;background-size: 22px 22px}
+
+.right_nav li.R_qq ul{position: absolute;width: 140px;padding:0 5px;left: -150px;top:0;display: none;}
+.right_nav li.R_qq ul li{background:url(../img/QQ_blue.png) no-repeat 10px center  #fff;background-size: 24px 24px ;height: 40px;border-bottom: 1px solid #ccc;padding-left: 40px;font-size: 14px;line-height: 40px}
+.right_nav li.R_qq:hover ul{display: block;}
+
+.right_nav li.R_tel{overflow: hidden;}
+.right_nav li.R_tel p{width: 130px;overflow: hidden;position: absolute;left: 0;top:0;color: #fff;
+  -webkit-transition:all .6s;
+  transition:all .6s;
+}
+
+.right_nav li.R_tel:hover{overflow:visible;}
+.right_nav li.R_tel:hover p{left:-80px;top:0;background: orange;line-height: 40px;
+}
+.right_nav li.R_tel:hover p i{float: left;}
+
+.right_nav li.R_wechat .code_wechat,.right_nav li.R_weibo .code_weibo{background: #fff;padding: 5px;
+  position: absolute;width: 130px;height: 150px;left: -145px;top:0;display: none;}
+
+.right_nav li.R_wechat .code_wechat img,.right_nav li.R_weibo .code_weibo img{
+  width: 130px;height: 130px;}
+.right_nav li.R_wechat .code_wechat{top:0;}
+.right_nav li.R_weibo .code_weibo{bottom: -150px}
+.right_nav li.R_wechat:hover .code_wechat,.right_nav li.R_weibo:hover .code_weibo{display: block;}
+.right_nav li.R_wechat .code_wechat p,.right_nav li.R_weibo .code_weibo p{font-size: 12px;color: #666;text-align: center;}
+
+
