@@ -21,4 +21,5 @@ ajax
 
 打包
 yarn(npm) run build
+
  productionSourceMap 改为false，减少体积，但不好调试
